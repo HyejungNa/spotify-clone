@@ -1,4 +1,4 @@
-import { ClipLoader } from "react-spinners";
+import { RotateLoader } from "react-spinners";
 
 const LoadingSpinner = () => {
   return (
@@ -10,7 +10,7 @@ const LoadingSpinner = () => {
         height: "100vh",
       }}
     >
-      <ClipLoader color="#36d7b7" size={70} />
+      <RotateLoader color="#36d7b7" size={20} />
     </div>
   );
 };
